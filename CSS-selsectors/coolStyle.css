@@ -1,0 +1,47 @@
+* {
+    /* outline: 1px solid red; */
+}
+
+body {
+    background-color: #fafafa;
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+
+h1 {
+    color: rebeccapurple;
+    font-size: 50px;
+}
+
+.is-centered {
+    text-align: center;
+}
+.is-red {
+    color: rgb(255,0,0);
+}
+
+p {
+    background-color: aquamarine;
+}
+
+/* targeting ids */
+#main {
+    color: blue;
+}
+/* target a class */
+.color-red {
+    background-color: red;
+}
+
+h1 {
+    color: red;
+}
+
+.hello > p > span{
+    color: green;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+}
